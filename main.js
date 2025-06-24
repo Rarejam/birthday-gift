@@ -19,7 +19,7 @@ const salman = document.querySelector(".salman");
 const mother = document.querySelector(".mother");
 const sulaiman = document.querySelector(".sulaiman");
 const closeLetter1 = document.querySelector(".close-letter1");
-const closeLetter2 = document.querySelector(".close-letter1");
+const closeLetter2 = document.querySelector(".close-letter2");
 const closeLetter3 = document.querySelector(".close-letter3");
 
 const header = document.querySelector(".header");
