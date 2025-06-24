@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  max-width: 100%;
+  min-height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  color: white;
+  border: none;
+  min-height: 10vh;
+  max-width: 100%;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  animation-duration: 3s;
+  animation: header-animation 3s alternate infinite;
+  /* animation-iteration-count: infinite; */
+}
+@keyframes header-animation {
+  30% {
+    background-color: skyblue;
+  }
+  60% {
+    background-color: aqua;
+    color: white;
+  }
+  90% {
+    background-color: white;
+  }
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  background-image: url(image.jpg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.content > div {
+  border: 1px solid;
+  min-height: 50vh;
+  width: 25vw;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  color: white;
+  max-width: 100%;
+  min-height: 5vh;
+}
+.salman-gift,
+.sulaiman-gift,
+.mother-gift {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(150deg, skyblue, white);
+  color: black;
+  border-color: wheat;
+}
+button {
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 40px;
+  width: 100px;
+  transition: 0.3s;
+}
+button:hover {
+  scale: 1.2;
+  background-color: white;
+  color: blue;
+}
+button:active {
+  scale: 1;
+}
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+}
+/* .submit-dialog3 {
+  width: 40px;
+} */
+.salman {
+  display: none;
+  max-width: 100%;
+  min-height: 85vh;
+  background-image: url(salman.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px; */
+  align-items: center;
+  justify-content: center;
+}
+.salman > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  width: 50%;
+  min-height: 45vh;
+  background-color: skyblue;
+  font-family: "Dancing Script", cursive;
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+}
+.sulaiman {
+  display: none;
+  max-width: 100%;
+  min-height: 85vh;
+  background-image: url(sulaiman.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px; */
+  align-items: center;
+  justify-content: center;
+}
+.sulaiman > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  width: 50%;
+  min-height: 45vh;
+  background-color: black;
+  font-family: "Dancing Script", cursive;
+  padding: 10px;
+  color: wheat;
+  border-radius: 5px;
+}
+
+.mother {
+  display: none;
+  max-width: 100%;
+  min-height: 85vh;
+  background-image: url(mother.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px; */
+  align-items: center;
+  justify-content: center;
+}
+.mother > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  width: 50%;
+  min-height: 45vh;
+  background-color: skyblue;
+  font-family: "Dancing Script", cursive;
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+}
+.close-letter1 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.close-letter2 {
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: black;
+  color: wheat;
+}
+
+.close-letter3 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.head1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  min-height: 10vh;
+  max-width: 100%;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: skyblue;
+  color: white;
+}
+
+.head2 {
+  background-color: black;
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  min-height: 10vh;
+  max-width: 100%;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.head3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  min-height: 10vh;
+  max-width: 100%;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  animation-duration: 3s;
+  animation: header-animation 3s alternate infinite;
+}
